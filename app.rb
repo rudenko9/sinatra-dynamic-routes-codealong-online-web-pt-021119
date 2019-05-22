@@ -20,7 +20,7 @@ class App < Sinatra::Base
   end 
   
   get "/miltiple/:num1/:num2" do
-    ":num1, :num2 "
+    ":num1 :num2 "
   end 
     
 
